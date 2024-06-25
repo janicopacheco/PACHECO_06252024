@@ -1,0 +1,6 @@
+@ProcessUploadedFile_HostAddress = http://localhost:5211
+
+GET {{ProcessUploadedFile_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
